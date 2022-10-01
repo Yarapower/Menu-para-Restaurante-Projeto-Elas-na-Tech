@@ -1,0 +1,145 @@
+body {
+    /*background-color: #2F5F89 ; */
+    background-image: url('../img/mesa.jpg');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+P {
+ color: #ffff;
+ font-size: 20px;
+ text-align: center;
+ }
+
+#menu {
+    margin-top: 20px;
+    background-color: #EDEDED;
+    border-radius: 2px;
+    margin-bottom: 80px;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+     display: inline;
+}
+
+#menu ul li a {
+    padding: 12px 10px;  /* espaco*/
+    font-size: 22px;
+    background-color: #EDEDED;
+    color: #333;
+    text-decoration:none;   /* sem sublinhado*/
+    /* border-bottom: 3px solid #5C4444;   seria borda debaixo, mas achei melhor tirar */
+    border-radius: 5px;     /* arredonda cantos */
+}
+
+#menu ul li a:hover {       /* animacao - nos links*/
+    background-color: #5C4444;
+    color: #fff;
+    /* border-bottom: 3x solid #fff ; */
+}
+
+#cardapio {
+    display: flex;   /* tipo de alinhamento - ao lado */
+    flex-direction: row;     /* direcao - na mesma linha */
+    justify-content: center;  /* para que justifique ao centro */
+    /* padding-top: 80px;    espaco*/
+    margin-bottom: 80px;
+
+}
+
+#cardapio img {
+    padding: 5px;    /* espaco*/
+    width: 360px;   /* largura */
+    height: 220px;    /* altura */
+    border-radius: 50px;   /* arredonda cantos */
+}
+
+#item {
+    display: flex;  /* tipo de alinhamento - ao lado */
+    flex-direction: column;    /* direcao - coluna */
+    text-align: center;
+    color: #fff;             /* deixa letra branca */
+
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 10px;
+    border-radius: 5px;   /* arredonda cantos */
+    padding: 20px;        /* espaco*/
+}
+
+#item p {
+    font-size: 14px;
+}
+
+#item button {
+    background-color: #dc143C;
+    padding: 10px;        /* espaco*/
+    border-radius: 5px;   /* arredonda cantos */
+    border: none;
+    color: #fff;         /* deixa letra branca */
+    font-size: 14px;
+    font-weight:bold;
+    cursor: pointer;        /* maozinha */
+}
+
+#item button:hover {
+    background-color: #f74b6d;
+
+}
+
+
+#container {
+    display: flex;   /* tipo de alinhamento - ao lado */
+    flex-direction: row;     /* direcao - na mesma linha */
+    justify-content: center;  /* para que justifique ao centro */
+    /* padding-top: 80px;    espaco*/
+    /*margin-bottom: 80px; */
+
+}
+
+#container img {
+    padding: 5px;    /* espaco*/
+    width: 360px;   /* largura */
+    height: 220px;    /* altura */
+    border-radius: 50px;   /* arredonda cantos */
+}
+
+#about {
+    display: flex;  /* tipo de alinhamento - ao lado */
+    flex-direction:column;    /* direcao - linha */
+    text-align: center;
+    color: #fff;             /* deixa letra branca */
+
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 10px;
+    border-radius: 5px;   /* arredonda cantos */
+    padding: 20px;        /* espaco*/
+}
+
+
+#about h1 {
+    font-style: italic;
+}
+
+#about p {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    text-align: justify;
+}
+
+#body-about {
+    display: flex;   /* tipo de alinhamento - ao lado */
+    flex-direction: row;     /* direcao - na mesma linha */
+}
+
+/*h1 {
+ color:#ffff
+}*/
